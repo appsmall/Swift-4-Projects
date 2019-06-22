@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB655AF200DD364002B1BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB655AE200DD364002B1BC2 /* AppDelegate.swift */; };
+		2FB655B1200DD364002B1BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB655B0200DD364002B1BC2 /* ViewController.swift */; };
+		2FB655B4200DD364002B1BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB655B2200DD364002B1BC2 /* Main.storyboard */; };
+		2FB655B7200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FB655B5200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodeld */; };
+		2FB655B9200DD364002B1BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB655B8200DD364002B1BC2 /* Assets.xcassets */; };
+		2FB655BC200DD364002B1BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB655BA200DD364002B1BC2 /* LaunchScreen.storyboard */; };
+		2FB655C4200DD408002B1BC2 /* Ik Vaari Aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB655C3200DD408002B1BC2 /* Ik Vaari Aa.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FB655AB200DD364002B1BC2 /* AudioPlayer+Background Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioPlayer+Background Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB655AE200DD364002B1BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FB655B0200DD364002B1BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FB655B3200DD364002B1BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FB655B6200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioPlayer_Background_Play.xcdatamodel; sourceTree = "<group>"; };
+		2FB655B8200DD364002B1BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FB655BB200DD364002B1BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FB655BD200DD364002B1BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB655C3200DD408002B1BC2 /* Ik Vaari Aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ik Vaari Aa.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB655A8200DD364002B1BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FB655A2200DD363002B1BC2 = {
+			isa = PBXGroup;
+			children = (
+				2FB655AD200DD364002B1BC2 /* AudioPlayer+Background Play */,
+				2FB655AC200DD364002B1BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FB655AC200DD364002B1BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB655AB200DD364002B1BC2 /* AudioPlayer+Background Play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FB655AD200DD364002B1BC2 /* AudioPlayer+Background Play */ = {
+			isa = PBXGroup;
+			children = (
+				2FB655AE200DD364002B1BC2 /* AppDelegate.swift */,
+				2FB655B0200DD364002B1BC2 /* ViewController.swift */,
+				2FB655B2200DD364002B1BC2 /* Main.storyboard */,
+				2FB655B8200DD364002B1BC2 /* Assets.xcassets */,
+				2FB655BA200DD364002B1BC2 /* LaunchScreen.storyboard */,
+				2FB655BD200DD364002B1BC2 /* Info.plist */,
+				2FB655B5200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodeld */,
+				2FB655C5200DD40C002B1BC2 /* Music */,
+			);
+			path = "AudioPlayer+Background Play";
+			sourceTree = "<group>";
+		};
+		2FB655C5200DD40C002B1BC2 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2FB655C3200DD408002B1BC2 /* Ik Vaari Aa.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FB655AA200DD364002B1BC2 /* AudioPlayer+Background Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB655C0200DD364002B1BC2 /* Build configuration list for PBXNativeTarget "AudioPlayer+Background Play" */;
+			buildPhases = (
+				2FB655A7200DD364002B1BC2 /* Sources */,
+				2FB655A8200DD364002B1BC2 /* Frameworks */,
+				2FB655A9200DD364002B1BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AudioPlayer+Background Play";
+			productName = "AudioPlayer+Background Play";
+			productReference = 2FB655AB200DD364002B1BC2 /* AudioPlayer+Background Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FB655A3200DD363002B1BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Clicks Bazaar";
+				TargetAttributes = {
+					2FB655AA200DD364002B1BC2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2FB655A6200DD363002B1BC2 /* Build configuration list for PBXProject "AudioPlayer+Background Play" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FB655A2200DD363002B1BC2;
+			productRefGroup = 2FB655AC200DD364002B1BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FB655AA200DD364002B1BC2 /* AudioPlayer+Background Play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FB655A9200DD364002B1BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB655C4200DD408002B1BC2 /* Ik Vaari Aa.mp3 in Resources */,
+				2FB655BC200DD364002B1BC2 /* LaunchScreen.storyboard in Resources */,
+				2FB655B9200DD364002B1BC2 /* Assets.xcassets in Resources */,
+				2FB655B4200DD364002B1BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB655A7200DD364002B1BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB655B7200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodeld in Sources */,
+				2FB655B1200DD364002B1BC2 /* ViewController.swift in Sources */,
+				2FB655AF200DD364002B1BC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FB655B2200DD364002B1BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FB655B3200DD364002B1BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FB655BA200DD364002B1BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FB655BB200DD364002B1BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FB655BE200DD364002B1BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FB655BF200DD364002B1BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FB655C1200DD364002B1BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSNA2FCKSR;
+				INFOPLIST_FILE = "AudioPlayer+Background Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-AudioPlayer-Background-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FB655C2200DD364002B1BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSNA2FCKSR;
+				INFOPLIST_FILE = "AudioPlayer+Background Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT-AudioPlayer-Background-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB655A6200DD363002B1BC2 /* Build configuration list for PBXProject "AudioPlayer+Background Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB655BE200DD364002B1BC2 /* Debug */,
+				2FB655BF200DD364002B1BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB655C0200DD364002B1BC2 /* Build configuration list for PBXNativeTarget "AudioPlayer+Background Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB655C1200DD364002B1BC2 /* Debug */,
+				2FB655C2200DD364002B1BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FB655B5200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FB655B6200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodel */,
+			);
+			currentVersion = 2FB655B6200DD364002B1BC2 /* AudioPlayer_Background_Play.xcdatamodel */;
+			path = AudioPlayer_Background_Play.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FB655A3200DD363002B1BC2 /* Project object */;
+}

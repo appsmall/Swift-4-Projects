@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G4m-Ig-Rdw">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TagViewInTextField" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kT2-yE-7kd">
+                                <rect key="frame" x="43" y="215" width="289" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="0.3691286426380368" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kT2-yE-7kd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="195" id="1tz-q1-oEg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kT2-yE-7kd" secondAttribute="trailing" constant="43" id="6yY-zs-um1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kT2-yE-7kd" secondAttribute="bottom" constant="422" id="cOc-Ga-cKD"/>
+                            <constraint firstItem="kT2-yE-7kd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="l6v-ru-YUF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="kT2-yE-7kd" id="1XJ-Ze-A5q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--TagVC-->
+        <scene sceneID="4UD-XB-kb8">
+            <objects>
+                <viewController id="5ny-zs-mgK" customClass="TagVC" customModule="TagViewInTextField" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tm6-UD-6Sb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cbi-dF-A0i">
+                                <rect key="frame" x="43" y="215" width="289" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OBC-qy-Zvm" firstAttribute="trailing" secondItem="cbi-dF-A0i" secondAttribute="trailing" constant="43" id="cQJ-T4-RN3"/>
+                            <constraint firstItem="OBC-qy-Zvm" firstAttribute="bottom" secondItem="cbi-dF-A0i" secondAttribute="bottom" constant="422" id="kPk-mP-yxC"/>
+                            <constraint firstItem="cbi-dF-A0i" firstAttribute="top" secondItem="OBC-qy-Zvm" secondAttribute="top" constant="195" id="rpl-V5-QZs"/>
+                            <constraint firstItem="cbi-dF-A0i" firstAttribute="leading" secondItem="OBC-qy-Zvm" secondAttribute="leading" constant="43" id="z3c-ud-7dJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OBC-qy-Zvm"/>
+                    </view>
+                    <connections>
+                        <outlet property="tfTag" destination="cbi-dF-A0i" id="36O-KG-3TM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8D4-XE-WS0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="233" y="933"/>
+        </scene>
+        <!--Tags View Controller-->
+        <scene sceneID="wYT-u4-HEi">
+            <objects>
+                <viewController id="G4m-Ig-Rdw" customClass="TagsViewController" customModule="TagViewInTextField" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fU4-31-5hQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYD-Pq-F7f" customClass="TLTagsControl">
+                                <rect key="frame" x="16" y="178" width="343" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ei-cj-oaG">
+                                <rect key="frame" x="64" y="310" width="246" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="btnSave:" destination="G4m-Ig-Rdw" eventType="touchUpInside" id="cdl-Rj-aOY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acj-gF-tKj">
+                                <rect key="frame" x="16" y="481" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Fetch"/>
+                                <connections>
+                                    <action selector="btnFetch:" destination="G4m-Ig-Rdw" eventType="touchUpInside" id="muh-nq-AQt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Xzb-Wa-64c"/>
+                    </view>
+                    <connections>
+                        <outlet property="tagView" destination="MYD-Pq-F7f" id="Mv9-zy-Nsj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DIY-GN-Aly" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="1833.7331334332835"/>
+        </scene>
+    </scenes>
+</document>
